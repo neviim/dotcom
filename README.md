@@ -1,2 +1,2 @@
 # dotcom
-Comunicador p2p, por linha de comando usando de criptografia.
+Comunicador, por linha de comando usando de criptografia.
