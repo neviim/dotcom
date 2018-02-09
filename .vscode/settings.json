@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "/home/neviim/anaconda3/envs/py36/bin/python",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    }
+}

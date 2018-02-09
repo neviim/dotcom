@@ -49,5 +49,3 @@ if __name__ == '__main__':
     # radios encontrados
     for radio in radios:
         print(radio)
-
-
