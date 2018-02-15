@@ -12,16 +12,18 @@
     Uso:
         $ 
 """ 
+from pprint import pprint
 import telepot
 
 # inicializa com o tokey o bot
-bot = telepot.Bot("")
+bot = telepot.Bot("436561103:AAEN7Ft2u2OHzYrpNOy8hrm8OueuJgjx6K8")
 
 # retorna ultima mensagem
-print(bot.getUpdates())
+response = bot.getUpdates()
+pprint(response)
 
 # Manda uma mensagem
-print(bot.sendMessage(101308303, 'bora tomar coca.'))
+#print(bot.sendMessage(101308303, 'bora tomar coca.'))
 
 print(bot.getMe())
 

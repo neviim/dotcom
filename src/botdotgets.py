@@ -12,10 +12,11 @@
     Uso:
         $ 
 """ 
+
 import telepot
 
 # inicializa com o tokey o bot
-bot = telepot.Bot("")
+bot = telepot.Bot("436561103:AAEN7Ft2u2OHzYrpNOy8hrm8OueuJgjx6K8")
 
 def recebeMensagem(mensagem):
     print(mensagem['text'])
